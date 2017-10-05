@@ -1,0 +1,24 @@
+<resume>
+    BoxLayout
+        id: details_layout
+        orientation: 'vertical'
+        padding: [10,50,10,50]
+        spacing: 20
+
+        Label:
+            text: 'Enter your Details'
+            font_size: 20
+
+        BoxLayout:
+            orientation: 'vertical'
+
+            Label:
+                text: 'name'
+                font_size: 8
+                halign: 'left'
+                text_size: root.width-20,20
+
+            TextInput:
+                id: name
+                multiline:False
+                font_size: 18
