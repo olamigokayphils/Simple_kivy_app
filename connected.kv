@@ -1,0 +1,22 @@
+#:include resume.kv
+<Connected>:
+    BoxLayout:
+        orientation: 'vertical'
+		spacing: 0
+		
+
+        Label:
+            text: "You are now Logged in"
+            font_size: 16
+			
+			
+		BoxLayout:
+			orientation: 'vertical'
+			
+
+        Button:
+            text: "Proceed >>>"
+            font_size: 18
+            on_press: root.disconnect()
+		
+		
